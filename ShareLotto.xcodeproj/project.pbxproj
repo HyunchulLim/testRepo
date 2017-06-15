@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8876DE8F1EF268F50060DF5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8876DE8E1EF268F50060DF5D /* main.m */; };
+		8876DE921EF268F50060DF5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8876DE911EF268F50060DF5D /* AppDelegate.m */; };
+		8876DE951EF268F50060DF5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8876DE941EF268F50060DF5D /* ViewController.m */; };
+		8876DE981EF268F50060DF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8876DE961EF268F50060DF5D /* Main.storyboard */; };
+		8876DE9A1EF268F50060DF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8876DE991EF268F50060DF5D /* Assets.xcassets */; };
+		8876DE9D1EF268F50060DF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8876DE9B1EF268F50060DF5D /* LaunchScreen.storyboard */; };
+		8876DEA81EF268F50060DF5D /* ShareLottoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8876DEA71EF268F50060DF5D /* ShareLottoTests.m */; };
+		8876DEB31EF268F50060DF5D /* ShareLottoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8876DEB21EF268F50060DF5D /* ShareLottoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8876DEA41EF268F50060DF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8876DE821EF268F50060DF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8876DE891EF268F50060DF5D;
+			remoteInfo = ShareLotto;
+		};
+		8876DEAF1EF268F50060DF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8876DE821EF268F50060DF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8876DE891EF268F50060DF5D;
+			remoteInfo = ShareLotto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8876DE8A1EF268F50060DF5D /* ShareLotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareLotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8876DE8E1EF268F50060DF5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8876DE901EF268F50060DF5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8876DE911EF268F50060DF5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8876DE931EF268F50060DF5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8876DE941EF268F50060DF5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8876DE971EF268F50060DF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8876DE991EF268F50060DF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8876DE9C1EF268F50060DF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8876DE9E1EF268F50060DF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8876DEA31EF268F50060DF5D /* ShareLottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareLottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8876DEA71EF268F50060DF5D /* ShareLottoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareLottoTests.m; sourceTree = "<group>"; };
+		8876DEA91EF268F50060DF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8876DEAE1EF268F50060DF5D /* ShareLottoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareLottoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8876DEB21EF268F50060DF5D /* ShareLottoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareLottoUITests.m; sourceTree = "<group>"; };
+		8876DEB41EF268F50060DF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8876DE871EF268F50060DF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8876DEA01EF268F50060DF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8876DEAB1EF268F50060DF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8876DE811EF268F50060DF5D = {
+			isa = PBXGroup;
+			children = (
+				8876DE8C1EF268F50060DF5D /* ShareLotto */,
+				8876DEA61EF268F50060DF5D /* ShareLottoTests */,
+				8876DEB11EF268F50060DF5D /* ShareLottoUITests */,
+				8876DE8B1EF268F50060DF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8876DE8B1EF268F50060DF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8876DE8A1EF268F50060DF5D /* ShareLotto.app */,
+				8876DEA31EF268F50060DF5D /* ShareLottoTests.xctest */,
+				8876DEAE1EF268F50060DF5D /* ShareLottoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8876DE8C1EF268F50060DF5D /* ShareLotto */ = {
+			isa = PBXGroup;
+			children = (
+				8876DE901EF268F50060DF5D /* AppDelegate.h */,
+				8876DE911EF268F50060DF5D /* AppDelegate.m */,
+				8876DE931EF268F50060DF5D /* ViewController.h */,
+				8876DE941EF268F50060DF5D /* ViewController.m */,
+				8876DE961EF268F50060DF5D /* Main.storyboard */,
+				8876DE991EF268F50060DF5D /* Assets.xcassets */,
+				8876DE9B1EF268F50060DF5D /* LaunchScreen.storyboard */,
+				8876DE9E1EF268F50060DF5D /* Info.plist */,
+				8876DE8D1EF268F50060DF5D /* Supporting Files */,
+			);
+			path = ShareLotto;
+			sourceTree = "<group>";
+		};
+		8876DE8D1EF268F50060DF5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8876DE8E1EF268F50060DF5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8876DEA61EF268F50060DF5D /* ShareLottoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8876DEA71EF268F50060DF5D /* ShareLottoTests.m */,
+				8876DEA91EF268F50060DF5D /* Info.plist */,
+			);
+			path = ShareLottoTests;
+			sourceTree = "<group>";
+		};
+		8876DEB11EF268F50060DF5D /* ShareLottoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8876DEB21EF268F50060DF5D /* ShareLottoUITests.m */,
+				8876DEB41EF268F50060DF5D /* Info.plist */,
+			);
+			path = ShareLottoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8876DE891EF268F50060DF5D /* ShareLotto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8876DEB71EF268F50060DF5D /* Build configuration list for PBXNativeTarget "ShareLotto" */;
+			buildPhases = (
+				8876DE861EF268F50060DF5D /* Sources */,
+				8876DE871EF268F50060DF5D /* Frameworks */,
+				8876DE881EF268F50060DF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareLotto;
+			productName = ShareLotto;
+			productReference = 8876DE8A1EF268F50060DF5D /* ShareLotto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8876DEA21EF268F50060DF5D /* ShareLottoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8876DEBA1EF268F50060DF5D /* Build configuration list for PBXNativeTarget "ShareLottoTests" */;
+			buildPhases = (
+				8876DE9F1EF268F50060DF5D /* Sources */,
+				8876DEA01EF268F50060DF5D /* Frameworks */,
+				8876DEA11EF268F50060DF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8876DEA51EF268F50060DF5D /* PBXTargetDependency */,
+			);
+			name = ShareLottoTests;
+			productName = ShareLottoTests;
+			productReference = 8876DEA31EF268F50060DF5D /* ShareLottoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8876DEAD1EF268F50060DF5D /* ShareLottoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8876DEBD1EF268F50060DF5D /* Build configuration list for PBXNativeTarget "ShareLottoUITests" */;
+			buildPhases = (
+				8876DEAA1EF268F50060DF5D /* Sources */,
+				8876DEAB1EF268F50060DF5D /* Frameworks */,
+				8876DEAC1EF268F50060DF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8876DEB01EF268F50060DF5D /* PBXTargetDependency */,
+			);
+			name = ShareLottoUITests;
+			productName = ShareLottoUITests;
+			productReference = 8876DEAE1EF268F50060DF5D /* ShareLottoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8876DE821EF268F50060DF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = IMAC;
+				TargetAttributes = {
+					8876DE891EF268F50060DF5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9ZB9U5387J;
+						ProvisioningStyle = Automatic;
+					};
+					8876DEA21EF268F50060DF5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9ZB9U5387J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8876DE891EF268F50060DF5D;
+					};
+					8876DEAD1EF268F50060DF5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9ZB9U5387J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8876DE891EF268F50060DF5D;
+					};
+				};
+			};
+			buildConfigurationList = 8876DE851EF268F50060DF5D /* Build configuration list for PBXProject "ShareLotto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8876DE811EF268F50060DF5D;
+			productRefGroup = 8876DE8B1EF268F50060DF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8876DE891EF268F50060DF5D /* ShareLotto */,
+				8876DEA21EF268F50060DF5D /* ShareLottoTests */,
+				8876DEAD1EF268F50060DF5D /* ShareLottoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8876DE881EF268F50060DF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8876DE9D1EF268F50060DF5D /* LaunchScreen.storyboard in Resources */,
+				8876DE9A1EF268F50060DF5D /* Assets.xcassets in Resources */,
+				8876DE981EF268F50060DF5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8876DEA11EF268F50060DF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8876DEAC1EF268F50060DF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8876DE861EF268F50060DF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8876DE951EF268F50060DF5D /* ViewController.m in Sources */,
+				8876DE921EF268F50060DF5D /* AppDelegate.m in Sources */,
+				8876DE8F1EF268F50060DF5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8876DE9F1EF268F50060DF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8876DEA81EF268F50060DF5D /* ShareLottoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8876DEAA1EF268F50060DF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8876DEB31EF268F50060DF5D /* ShareLottoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8876DEA51EF268F50060DF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8876DE891EF268F50060DF5D /* ShareLotto */;
+			targetProxy = 8876DEA41EF268F50060DF5D /* PBXContainerItemProxy */;
+		};
+		8876DEB01EF268F50060DF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8876DE891EF268F50060DF5D /* ShareLotto */;
+			targetProxy = 8876DEAF1EF268F50060DF5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8876DE961EF268F50060DF5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8876DE971EF268F50060DF5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8876DE9B1EF268F50060DF5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8876DE9C1EF268F50060DF5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8876DEB51EF268F50060DF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8876DEB61EF268F50060DF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8876DEB81EF268F50060DF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZB9U5387J;
+				INFOPLIST_FILE = ShareLotto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4biz.ShareLotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8876DEB91EF268F50060DF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZB9U5387J;
+				INFOPLIST_FILE = ShareLotto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4biz.ShareLotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8876DEBB1EF268F50060DF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ZB9U5387J;
+				INFOPLIST_FILE = ShareLottoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4biz.ShareLottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareLotto.app/ShareLotto";
+			};
+			name = Debug;
+		};
+		8876DEBC1EF268F50060DF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ZB9U5387J;
+				INFOPLIST_FILE = ShareLottoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4biz.ShareLottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareLotto.app/ShareLotto";
+			};
+			name = Release;
+		};
+		8876DEBE1EF268F50060DF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9ZB9U5387J;
+				INFOPLIST_FILE = ShareLottoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4biz.ShareLottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareLotto;
+			};
+			name = Debug;
+		};
+		8876DEBF1EF268F50060DF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9ZB9U5387J;
+				INFOPLIST_FILE = ShareLottoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4biz.ShareLottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareLotto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8876DE851EF268F50060DF5D /* Build configuration list for PBXProject "ShareLotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8876DEB51EF268F50060DF5D /* Debug */,
+				8876DEB61EF268F50060DF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8876DEB71EF268F50060DF5D /* Build configuration list for PBXNativeTarget "ShareLotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8876DEB81EF268F50060DF5D /* Debug */,
+				8876DEB91EF268F50060DF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8876DEBA1EF268F50060DF5D /* Build configuration list for PBXNativeTarget "ShareLottoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8876DEBB1EF268F50060DF5D /* Debug */,
+				8876DEBC1EF268F50060DF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8876DEBD1EF268F50060DF5D /* Build configuration list for PBXNativeTarget "ShareLottoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8876DEBE1EF268F50060DF5D /* Debug */,
+				8876DEBF1EF268F50060DF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8876DE821EF268F50060DF5D /* Project object */;
+}
